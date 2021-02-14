@@ -1,0 +1,22 @@
+<nav class="pager">
+  <ul class="pager-list">
+    {% if paginator.previous_page_path %}
+    {% if paginator.previous_page_path == 1 %}
+      <li class="pager-previous"><a href="/" rel="previous">&larr;</a></li>
+    {% else %}
+      <li class="pager-previous"><a href="{{paginator.previous_page_path}}" rel="next">the previous</a></li>
+    {% endif %}
+    {% else %}
+    {% endif %}
+    {% if paginator.next_page_path %}
+      <li class="pager-next"><a href="{{paginator.next_page_path}}">the next</a></li>
+    {% else %}
+    {% endif %}
+    {% if page.previous.url %}
+      <li class="pager-previous"><a href="{{ page.previous.url }}" rel="previous" title="{{ page.previous.title }}">the previous</a></li>
+    {% endif %}
+    {% if page.next.url %}
+      <li class="pager-next"><a href="{{ page.next.url }}" rel="next" title="{{ page.next.title }}">the next</a></li>
+    {% endif %}
+    </ul>
+</nav>
