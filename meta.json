@@ -2,6 +2,5 @@
 "name": "Gödel's Game Reserve",
 "description": "(λ (stake) (+ stake gainz))",
 "ticker": "GODEL",
-"homepage": "https://godel.club",
-"ver":"891e45d72c5812a88bdf46b42d3a0f1b"
+"homepage": "https://godel.club"
 }
