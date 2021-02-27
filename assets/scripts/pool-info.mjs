@@ -4,12 +4,20 @@ export async function getPoolInfo (poolInfoUrl) {
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   } else {
-    return await response.json()
+     await response.json()
   }
 }
 
 export async function renderPoolInfo (poolInfo) {
-  const infoRoot = document.getElementById('live-pool-info')
+  const $root = document.getElementById('live-pool-info')
 
-  console.log(await poolInfo)
+  const info = JSON.stringify(await poolInfo, null, 2)
+
+  let $el = document.createElement('span')
+
+  $el.textContent = info
+
+  if ($root) {
+    $root.appendChild($el)
+  }
 }
