@@ -1,2 +1,1 @@
-# site
-an interenet "web" site
+[godel.club](https://godel.club)

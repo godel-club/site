@@ -1,8 +1,7 @@
 ---
 layout: post
-title: "Welcome to Jekyll!"
-date: 2021-02-14 14:20:56 -0700
-published: false
+title:  "Welcome to Jekyll!"
+date:   2021-02-14 14:20:56 -0700
 categories: jekyll update
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and

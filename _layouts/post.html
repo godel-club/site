@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<section class="main-content">
+  <article class="article">
+    <h1 class="article-title large">{{ page.title }}</h2>
+
+    <div class="article-meta">
+      <time class="timestamp">{{page.date | date: "%B %d, %Y"}}</time>
+    </div>
+
+    <div class="article-content">
+      <div class="article-summary"><p>{{ page.description }}</p></div>
+      {{ content }}
+    </div>
+  </article>
+</section>
+
+<div class="l-footer">
+  {% include after.html %}
+</div>
