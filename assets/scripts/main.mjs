@@ -12,7 +12,7 @@ const poolInfo = PoolInfo.getPoolInfo(POOL_INFO_URL)
 
 poolInfo.then(info => console.info('Retrieved pool info!', info))
 
-// PoolInfo.renderPoolInfo(poolInfo)
+PoolInfo.renderPoolInfo(poolInfo)
 
 // ---------------------------------------------------------------------------
 
