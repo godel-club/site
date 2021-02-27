@@ -6,6 +6,7 @@ baseurl: ""
 url: ""
 twitter_username: jekyllrb
 github_username:  jekyll
+permalink: /blog/:title.html
 
 theme: null
 paginate: 5
