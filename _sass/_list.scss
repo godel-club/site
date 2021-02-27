@@ -1,0 +1,20 @@
+@mixin list-reset {
+
+  // .list
+  > ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  // .list-item
+  > ul > li {
+    list-style: none;
+  }
+}
+
+.item-list {
+  @include list-reset;
+
+  .list > .list-item {
+  }
+}
