@@ -1,11 +1,9 @@
 title: godel.club
 email: info@godel.club
-description: >- # this means to ignore newlines until "baseurl:"
-  foobarbaz
-baseurl: ""
-url: ""
-twitter_username: jekyllrb
-github_username:  jekyll
+description: >-
+  A Cardano staking pool.
+baseurl: "/"
+url: "https://godel.club"
 permalink: /blog/:title.html
 
 theme: null
