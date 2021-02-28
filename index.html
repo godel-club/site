@@ -5,11 +5,13 @@ description: "GODEL CLUB GODEL CLUB"
 robots: "noodp, noydir"
 ---
 <section class="l-primary">
-  <div class="front-page-leader">
-    {% include pool-info.html %}
-  <div>
+  <div class="about">
+    <p>Some folks learning crypto, and writing about it.</p>
+  </div>
 
-  <div class="item-list">
+  {% include pool-info.html %}
+
+  <div class="blog-list item-list">
     <ul class="list">
 
       {% for post in paginator.posts %}
@@ -26,14 +28,14 @@ robots: "noodp, noydir"
           </div>
 
           <div class="article-link">
-            <p><a href="{{ post.url }}">...</a></p>
+            <p><a href="{{ post.url }}">...more</a></p>
           </div>
         </article>
       </li>
       {% endfor %}
 
     </ul>
-  </div>
+  </div> <!-- .blog-list -->
 </section>
 
 <section class="l-pager">
