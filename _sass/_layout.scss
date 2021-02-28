@@ -1,6 +1,37 @@
-.l-main {
-  font-size: 100px;
+.l-header {
+  position: relative;
+  grid-column: primary;
+
+  margin: 1rem 0;
+
+  & .l-hero {
+    width: 100%;
+  }
+
+  & .l-leader {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+
+    padding: 1rem;
+
+    color: #fff;
+    background: rgba(0,0,0,0.8);
+  }
 }
 
-.l-header {
+.l-primary {
+  grid-column: primary;
+}
+
+.l-pager {
+  grid-column: primary;
+}
+
+.l-footer {
+  grid-column: primary;
+}
+
+.l-menu-primary {
+  grid-column: primary;
 }
