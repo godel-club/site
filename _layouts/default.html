@@ -3,25 +3,24 @@
   {% include head.html %}
 
   <body>
-    <div class="l-header">
-      <div class="leader">
-        <h1>Gödel's Game Preserve</h1>
+    <div class="grid-container">
+      <section class="l-header">
+        <img alt="Kurt Gödel looking pensive." class="l-hero" src="/assets/images/godel-banner.gif" /> 
 
-        <img 
-           alt="Kurt Gödel looking pensive."
-           class="godel-portrait"
-           src="/assets/images/godel-banner.gif" />
+        <div class="l-leader">
+          <h1 class='site-title'>Gödel's Game Preserve</h1>
 
-        {% include godel-symbol.html %}
+          {% include godel-symbol.html %}
 
-        <!-- <div id="godel-symbol"></div> -->
-      </div>
+          <!-- <div id="godel-symbol"></div> -->
 
-      {% include nav.html %}
-    </div> 
+          {% include nav.html %}
+        </div>
+      </section> 
 
-    {{ content }}
+      {{ content }}
 
-    {% include foot.html %}
+      {% include foot.html %}
+    </div>
   </body>
 </html>

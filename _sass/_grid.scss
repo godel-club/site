@@ -1,0 +1,16 @@
+$breakpoint-s:  320px;
+$breakpoint-m:  480px;
+$breakpoint-l:  740px;
+
+// Container.
+$container-s:   90%;
+$container-m:   $breakpoint-m;
+$container-l:   $breakpoint-l;
+
+.grid-container {
+  display: grid;
+
+  align-items: center;
+  grid-gap: 1rem;
+  grid-template-columns: [bleed-start] auto [primary-start] repeat(12, minmax(1rem, 4rem)) [primary-end] auto [bleed-end];
+}
