@@ -1,6 +1,10 @@
-.l-header {
+@mixin constrained {
   position: relative;
   grid-column: primary;
+}
+
+.l-header {
+  @include constrained;
 
   margin: 1rem 0;
 
@@ -21,17 +25,17 @@
 }
 
 .l-primary {
-  grid-column: primary;
+  @include constrained;
 }
 
 .l-pager {
-  grid-column: primary;
+  @include constrained;
 }
 
 .l-footer {
-  grid-column: primary;
+  @include constrained;
 }
 
 .l-menu-primary {
-  grid-column: primary;
+  @include constrained;
 }

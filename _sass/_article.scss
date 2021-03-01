@@ -1,0 +1,38 @@
+.article {
+}
+
+.article-title {
+  a {
+  }
+}
+
+.article-meta {
+  .timestamp {
+    display: block;
+    font-style: italic;
+    opacity: 0.5;
+  }
+
+  .comment-count {
+    display: block;
+  }
+}
+
+.article-content {
+  ol, 
+  ul {
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+
+    list-style: initial;
+  }
+
+  li {
+  }
+}
+
+.article-link {
+}
+
+.article pre {
+}

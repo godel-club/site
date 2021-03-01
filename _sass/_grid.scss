@@ -11,6 +11,5 @@ $container-l:   $breakpoint-l;
   display: grid;
 
   align-items: center;
-  grid-gap: 1rem;
-  grid-template-columns: [bleed-start] auto [primary-start] repeat(12, minmax(1rem, 4rem)) [primary-end] auto [bleed-end];
+  grid-template-columns: [bleed-start] 1rem auto [primary-start] repeat(12, minmax(0, 4rem)) [primary-end] auto 1rem [bleed-end];
 }
