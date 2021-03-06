@@ -3,6 +3,7 @@
 
 // base
 @import 'normalize';
+@import 'font';
 @import 'element';
 
 // layout
@@ -10,8 +11,11 @@
 @import 'layout';
 
 // components
-@import 'list';
+@import 'about';
 @import 'article';
+@import 'godel';
+@import 'list';
+@import 'pool-info';
 
 // components
 @import 'etc';
