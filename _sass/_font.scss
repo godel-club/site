@@ -1,0 +1,11 @@
+@mixin system-sans {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, helvetica neue, helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif; 
+}
+
+@mixin system-serif {
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol; 
+}
+
+@mixin system-mono {
+  font-family: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; 
+}

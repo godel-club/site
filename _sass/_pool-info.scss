@@ -1,0 +1,35 @@
+#pool-info {
+}
+
+.pool-info-fields {
+  @include system-mono;
+  padding: 1rem;
+
+  color: #fff;
+  background: rgba(0, 0, 0, 0.8);
+
+  > .list {
+    display: table;
+  }
+}
+
+.pool-info-field {
+  display: table-row;
+  line-height: 1.5rem;
+}
+
+.pool-info-field-label {
+  display: table-cell;
+  text-align: right;
+}
+
+.pool-info-field-data {
+  display: table-cell;
+  padding-left: 1rem;
+  word-break: break-all;
+}
+
+.pool-link {
+  line-height: 1.5rem;
+  text-align: right;
+}
